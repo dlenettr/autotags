@@ -1,0 +1,67 @@
+<?php
+/*
+=====================================================
+ MWS Auto Tags v1.1 - by MaRZoCHi (MWS) 
+-----------------------------------------------------
+ http://www.dle.net.tr/
+-----------------------------------------------------
+ Copyright (c) 2014 - DLE.NET.TR
+-----------------------------------------------------
+ License : GPL License
+=====================================================
+ Translate: MaRZoCHi <dle.net.tr>
+=====================================================
+*/
+
+$lang['autotags_0'] = "Specify tags for each category, create automatically";
+$lang['autotags_1'] = "Title";
+$lang['autotags_2'] = "Short Story";
+$lang['autotags_3'] = "Full Story";
+$lang['autotags_4'] = "Direct use";
+$lang['autotags_5'] = "Seperate and use";
+$lang['autotags_6'] = "Add new rule";
+$lang['autotags_7'] = "Select categories";
+$lang['autotags_8'] = "Select categories for define auto tags. You can select multiple categories.";
+$lang['autotags_9'] = "Write tag rule";
+$lang['autotags_10'] = "Write tag rule for automaticaly create tags.";
+$lang['autotags_11'] = "Write tags seperated with comma:<br />Usable tags: <br /><b>{title}</b> - Title of news<br /><b>{word}</b> - If activated 'Seperate and use' type.";
+$lang['autotags_12'] = "Select source";
+$lang['autotags_13'] = "Select source for using on creating tags, you can select multiple sources.";
+$lang['autotags_14'] = "Select source";
+$lang['autotags_15'] = "Tag creating type";
+$lang['autotags_16'] = "Select tag creating type, direct use or seperated words.";
+$lang['autotags_17'] = "Rules";
+$lang['autotags_18'] = "Max. Tag count";
+$lang['autotags_19'] = "Define maximum tag count for news.";
+$lang['autotags_20'] = "Min. Tag length";
+$lang['autotags_21'] = "Define minimum length for use a word as tag";
+$lang['autotags_22'] = "Max. Tag length";
+$lang['autotags_23'] = "Define maximum length for use a word as tag";
+$lang['autotags_24'] = "Tag seperator";
+$lang['autotags_25'] = "You can define seperator for words. Only for space, please type 'space'. Do not enter space key on keyboard.";
+$lang['autotags_26'] = "Black list";
+$lang['autotags_27'] = "These word if contain in created tags, did'nt use.";
+$lang['autotags_28'] = "Use random";
+$lang['autotags_29'] = "Random, all created tags";
+$lang['autotags_30'] = "Use translit function";
+$lang['autotags_31'] = "Use translit function on defined system, If yes: tags automatically translated same on title to url rule.";
+$lang['autotags_32'] = "For space: Type 'space'";
+$lang['autotags_33'] = "Seperate words with comma, these not uses in tags";
+$lang['autotags_34'] = "Delete the rule";
+$lang['autotags_35'] = "Maximum length, if don't want to use, please enter '0'";
+$lang['autotags_36'] = "Minimum length, if don't want to use, please enter '0'";
+$lang['autotags_37'] = "Enter maximum count. This field must be filled.";
+// Version 1.1
+$lang['autotags_38'] = "Okay. All tags were deleted";
+$lang['autotags_39'] = "Not enough data for process";
+$lang['autotags_40'] = "Do you want to delete all tags?";
+$lang['autotags_41'] = "Are you sure?";
+$lang['autotags_42'] = "Succesfull";
+$lang['autotags_43'] = "Error";
+$lang['autotags_44'] = "Delete All Tags";
+$lang['autotags_45'] = "Submit";
+$lang['autotags_46'] = "Select Source";
+$lang['autotags_47'] = "Delete";
+$lang['autotags_48'] = "Cancel";
+
+?>

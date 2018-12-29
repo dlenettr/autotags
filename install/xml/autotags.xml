@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<id>Auto Tags</id>
+	<version>1.2</version>
+	<vqmver>2.4.1</vqmver>
+	<author>MaRZoCHi</author>
+	<file name="engine/inc/addnews.php">
+		<operation>
+			<ignoreif><![CDATA[# Auto Tags v1.0]]></ignoreif>
+			<search position="before"><![CDATA[$db->query( "INSERT INTO " . PREFIX . "_post (date, autor, short_story, full_story, xfields, title, descr,]]></search>
+			<add><![CDATA[
+# Auto Tags v1.2
+	include ENGINE_DIR . '/inc/autotags.functions.php';
+# Auto Tags v1.2
+]]></add>
+		</operation>
+	</file>
+	<file name="engine/ajax/rebuild.php">
+		<operation>
+			<ignoreif><![CDATA[# Auto Tags v1.2]]></ignoreif>
+			<search position="before"><![CDATA[if ($row['xfields'] != "") {]]></search>
+			<add><![CDATA[
+# Auto Tags v1.2
+		$title = $row['title'];
+		$category_list = $row['category'];
+		include ENGINE_DIR . '/inc/autotags.functions.php';
+		$tags = $_POST['tags'];
+# Auto Tags v1.2
+]]></add>
+		</operation>
+		<operation>
+			<ignoreif><![CDATA[// Auto Tags v1.2]]></ignoreif>
+			<search position="after"><![CDATA[$db->query( "UPDATE " . PREFIX . "_post SET]]></search>
+			<add><![CDATA[
+// Auto Tags v1.2
+		if ( $row['news_id'] ) {
+			$_tags = explode( ",", $tags );
+			foreach( $_tags as $_tag ) {
+				$db->query( "INSERT INTO " . PREFIX . "_tags (news_id, tag) VALUES('{$row['id']}', '" . trim( $_tag ) . "')" );
+			}
+		}
+// Auto Tags v1.2
+]]></add>
+		</operation>
+	</file>
+</modification>

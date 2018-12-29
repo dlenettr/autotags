@@ -1,0 +1,67 @@
+<?php
+/*
+=====================================================
+ MWS Auto Tags v1.1 - by MaRZoCHi (MWS) 
+-----------------------------------------------------
+ http://www.dle.net.tr/
+-----------------------------------------------------
+ Copyright (c) 2014 - DLE.NET.TR
+-----------------------------------------------------
+ License : GPL License
+=====================================================
+ Translate: MaRZoCHi <dle.net.tr>
+=====================================================
+*/
+
+$lang['autotags_0'] = "Otomatik olarak oluşturulacak etiketleri belirleyin";
+$lang['autotags_1'] = "Başlık";
+$lang['autotags_2'] = "Short Story";
+$lang['autotags_3'] = "Full Story";
+$lang['autotags_4'] = "Direkt kullan";
+$lang['autotags_5'] = "Ayır ve kullan";
+$lang['autotags_6'] = "Yeni kural ekle";
+$lang['autotags_7'] = "Kategorileri seç";
+$lang['autotags_8'] = "Kategori seçin. Birden çok kategori seçebilirsiniz";
+$lang['autotags_9'] = "Kuralı yazın";
+$lang['autotags_10'] = "Otomatik oluşturma için etiket kuralını yazın";
+$lang['autotags_11'] = "Tagları virgül ile ayırarak girin:<br />Kullanılabilir taglar: <br /><b>{word}</b> - Başlık veya kelime, eğer 'Ayır ve kullan' seçili ise";
+$lang['autotags_12'] = "Kaynak seç";
+$lang['autotags_13'] = "Etiketlerin oluşturulacağı kaynağı seçin. Birden çok kaynak seçebilirsiniz";
+$lang['autotags_14'] = "Kaynak seç";
+$lang['autotags_15'] = "Etiket oluşturma tipi";
+$lang['autotags_16'] = "Oluşturma tipini seçin. Direkt kullanım veya kelimelere ayrırarak kullanım";
+$lang['autotags_17'] = "Kurallar";
+$lang['autotags_18'] = "Max. Etiket sayısı";
+$lang['autotags_19'] = "Makale için oluşturulacak max. etiket sayısını girin.";
+$lang['autotags_20'] = "Min. Etiket uzunluğu";
+$lang['autotags_21'] = "Etiket olarak kullanılacak kelime için min. uzunluğu girin";
+$lang['autotags_22'] = "Max. Etiket uzunluğu";
+$lang['autotags_23'] = "Etiket olarak kullanılacak kelime için max. uzunluğu girin";
+$lang['autotags_24'] = "Tag ayracı";
+$lang['autotags_25'] = "Kelimeler için ayraç belirtebilirsiniz. Sadece boşluk için 'space' yazın. Klavyeden bşluk tuşuna basmayın.";
+$lang['autotags_26'] = "Kara liste";
+$lang['autotags_27'] = "Eğer bu kelime oluşturulan etiketlerin içerisinde varsa kullanılmayacaktır.";
+$lang['autotags_28'] = "Karıştır ve kullan";
+$lang['autotags_29'] = "Oluşturulan tüm etiketleri karıştırır";
+$lang['autotags_30'] = "Çeviri fonksyionunu kullan";
+$lang['autotags_31'] = "Sistemde bulunan çeviri fonksiyonunu kullan, Eğer aktifse: etiketler otomatik olarak latin karakterlerine çevirilecektir. Tıpkı makale url'lerinde olduğu gibi.";
+$lang['autotags_32'] = "Boşluk için: 'space' yazın";
+$lang['autotags_33'] = "Kelimeleri virgül ile ayırın, bu kelimeler etiket olarak kullanılmayacaktır.";
+$lang['autotags_34'] = "Kuralı sil";
+$lang['autotags_35'] = "Maximum uzunluk, Eğer kullanmak istemiyorsanız '0' girin";
+$lang['autotags_36'] = "Minimum uzunluk, Eğer kullanmak istemiyorsanız '0' girin";
+$lang['autotags_37'] = "Maximum sayıyı girin. Bu alan otomatik olarak doldurulacaktır.";
+// Version 1.1
+$lang['autotags_38'] = "Tamam. Tüm etiketler silindi";
+$lang['autotags_39'] = "İşlem için yeterli veri yok";
+$lang['autotags_40'] = "Tüm etiketleri silmek istiyor musunuz?";
+$lang['autotags_41'] = "Emin misiniz?";
+$lang['autotags_42'] = "Başarılı";
+$lang['autotags_43'] = "Hata";
+$lang['autotags_44'] = "Tüm etiketleri sil";
+$lang['autotags_45'] = "Gönder";
+$lang['autotags_46'] = "Kaynak Seç";
+$lang['autotags_47'] = "Sil";
+$lang['autotags_48'] = "İptal";
+
+?>
